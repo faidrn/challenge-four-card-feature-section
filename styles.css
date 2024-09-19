@@ -1,0 +1,79 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background: var(--Very-Light-Gray);
+    color: var(--Very-Dark-Blue);
+    font-size: 15px;
+}
+
+/*.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }*/
+
+.poppins-extralight {
+    font-weight: 200;
+}
+  
+.poppins-regular {
+    font-weight: 400;
+}
+  
+.poppins-semibold {
+    font-weight: 600;
+}
+
+
+.container{
+    display: grid;
+    justify-items: center;
+    margin-top: 70px;
+    border: 1px solid red;
+}
+
+p{
+    width: 500px;
+    color: var(--Grayish-Blue);
+    border: 1px solid green;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.cards{
+    width: 100%;
+    margin-top: 60px;
+    border: 1px solid blue;
+}
+
+.cards div{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px;
+    /*border: 1px solid black;*/
+    margin-left: 50px;
+}
+
+.cyan-card{
+    border-top: 3px solid var(--Cyan);
+    margin-top: 10px;
+}
