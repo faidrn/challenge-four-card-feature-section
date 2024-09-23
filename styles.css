@@ -62,18 +62,57 @@ p{
 .cards{
     width: 100%;
     margin-top: 60px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     border: 1px solid blue;
+}
+
+.central-cards{
+    border: 1px solid green;
 }
 
 .cards div{
     width: 300px;
+    height: 180px;
     border-radius: 5px;
     box-shadow: 0px 5px 15px;
     /*border: 1px solid black;*/
-    margin-left: 50px;
 }
 
 .cyan-card{
     border-top: 3px solid var(--Cyan);
+    /*margin-top: 10px;*/
+}
+
+.cards div > h2{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.cards div > p{
+    width: 239px;
     margin-top: 10px;
+    margin-left: 25px;
+    border: none;
+}
+
+.cards div > img{
+    width: 45px;
+    position: relative;
+    bottom: -15px;
+    left: 225px;
+}
+
+.red-card{
+    border-top: 3px solid var(--Red);
+}
+
+.orange-card{
+    border-top: 3px solid var(--Orange);
+}
+
+.blue-card{
+    border-top: 3px solid var(--Blue);
 }
